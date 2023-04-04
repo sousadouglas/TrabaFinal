@@ -1,3 +1,6 @@
+
+
+
 CREATE EXTERNAL TABLE IF NOT EXISTS desafio.categoria ( 
         id_categoria string,
         ds_categoria string,
