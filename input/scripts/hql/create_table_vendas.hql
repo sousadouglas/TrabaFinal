@@ -1,4 +1,4 @@
-CREATE EXTERNAL TABLE IF NOT EXISTS desafio.categoria ( 
+CREATE EXTERNAL TABLE IF NOT EXISTS desafio.vendas ( 
 
 Actual_Delivery_Date string,
 CustomerKey string,
@@ -24,9 +24,9 @@ U/M_string string
        
        
     )
-COMMENT 'Tabela de '
+COMMENT 'Tabela de vendas'
 ROW FORMAT DELIMITED
 FIELDS TERMINATED BY ';'
 STORED AS TEXTFILE
-location '/datalake/raw/......./'
+location '/datalake/raw/vendas/'
 TBLPROPERTIES ("skip.header.line.count"="1");

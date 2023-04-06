@@ -2,7 +2,7 @@
 
 # Criação das pastas
 
-DADOS=("cidade" "estado" "filial" "parceiro" "cliente" "subcategoria" "categoria" "item_pedido" "produto")
+DADOS=("clientes" "divisao" "endereco" "regiao" "vendas")
 hdfs dfs -mkdir /datalake
 hdfs dfs -mkdir /datalake/raw
 
