@@ -1,6 +1,6 @@
 CREATE EXTERNAL TABLE IF NOT EXISTS desafio.divisao ( 
-       Division string,
-       Division_Name string 
+Division string,
+Division_Name string       
        
        
     )

@@ -1,5 +1,6 @@
 CREATE EXTERNAL TABLE IF NOT EXISTS desafio.clientes ( 
-       Address_Number string,
+
+Address_Number string,
 Business_Family string,
 Business_Unit string,
 Customer string,
@@ -10,7 +11,7 @@ Line_of_Business string,
 Phone string,
 Region_Code string,
 Regional_Sales_Mgr string,
-Search_Type string
+Search_Type string       
        
        
     )

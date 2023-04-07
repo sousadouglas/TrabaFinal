@@ -1,10 +1,10 @@
 CREATE EXTERNAL TABLE IF NOT EXISTS desafio.regiao ( 
        Region_Code string,
-       Region_Name string
+Region_Name string
        
        
     )
-COMMENT 'Tabela de regiao'
+COMMENT 'Tabela de regiao '
 ROW FORMAT DELIMITED
 FIELDS TERMINATED BY ';'
 STORED AS TEXTFILE

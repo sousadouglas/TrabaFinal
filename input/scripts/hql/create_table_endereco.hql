@@ -1,6 +1,7 @@
 CREATE EXTERNAL TABLE IF NOT EXISTS desafio.endereco ( 
-       address_Number string,
+       Address_Number string,
 City string,
+Country string,
 Country_Customer_Address_1 string,
 Customer_Address_2 string,
 Customer_Address_3 string,
